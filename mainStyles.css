@@ -4,6 +4,9 @@
     margin: 0;
 }
 /*------------------navigation starter her-----------------*/
+nav {
+    text-align: center;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -37,4 +40,22 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgb(68, 68, 68);
     height: 70px;
+}
+/*-------------------splash starts here------------------------*/
+#Om {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    color: white;
+}
+
+#splash--cont{
+    background-image: url(./pictures/splashpagepic.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+#splash--cont h1 {
+    font-size: 30px;
+    padding-top: 16%;
 }
