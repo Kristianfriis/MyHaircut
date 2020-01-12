@@ -54,8 +54,29 @@ nav ul li a:hover {
     height: 500px;
     background-repeat: no-repeat;
     opacity: 0.8;
+    border-radius: 0px 0px 5px 5px;
 }
 #splash--cont h1 {
     font-size: 30px;
     padding-top: 16%;
+}
+#beskrivelse-cont {
+    color: rgb(12, 6, 6);
+    display: flex;
+    justify-content: center;
+}
+#beskrivelse-cont .item {
+    border-radius: 5px;;
+    height: 390px;
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(226, 226, 226, 0.685);
+    -webkit-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.45);
+    -moz-box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.45);
+    box-shadow: 10px 10px 5px -7px rgba(0,0,0,0.45);
+}
+#beskrivelse-cont .item img {
+    height: 100%;
+    border-radius: 5px;
 }
